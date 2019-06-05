@@ -1,36 +1,34 @@
-html{
+html {
     background: url(../images/topography.png) no-repeat center center fixed; 
     background-size: cover;
 }
 
-body{
+body {
     margin: 0;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
 
-header{
+header {
     box-shadow: 0 1.5px 0px 0px #cccccc;
 }
 
-/* .Header-2 { */
-    /* position: fixed; */
-/* } */
 
-#name{
+#name {
     background-color: #4aaaa5;
     color:white;
     border: #cccccc;
     padding: 15px;
     margin:0;
+
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     margin-top: 5px;
-    /* border-radius: 10px; */
+    
 }
 
 #split {
@@ -38,12 +36,8 @@ h1 {
     display: flex; 
     justify-content: space-around;  
     align-items: center; 
-    
-    /* max-width: 960px; */
     padding: 0 1rem; 
-    /* margin: 0; */
-    
-    
+           
 }
 
 #split h1 {
@@ -69,7 +63,7 @@ nav ul {
     float: right;
 }
 
-nav a, li{
+nav a, li {
     color:#777777;
     text-decoration: none; 
      
@@ -78,6 +72,7 @@ nav a, li{
 li a:hover {
     color:#4aaaa5;
 }
+
 
 hr {
     width: 100%;
@@ -90,17 +85,14 @@ hr {
 
 img {
     float:left;
-    margin-right: 15px;
-    margin-bottom:5px;
+    margin: 10px 15px 5px 0;
     border-radius:10px;
 }
 
 p {
-    line-height: 30px;
-    margin-top: 0;
-    padding: 0;
-    
-    
+    line-height: 24px;
+    font-size: 15px;
+        
 }
 
 section {
@@ -109,14 +101,9 @@ section {
     margin:0 auto;
     height: 400px;
     padding: 15px;
-    /* display: flex; 
-    flex-wrap: inherit;
-    justify-content: space-between;  */
     align-items: left;   
     border: 1px solid #cccccc;
     margin-top: 25px; 
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     position: center;
     background-color:#ffffff;
     overflow: auto;  
@@ -141,9 +128,6 @@ footer {
     padding: 0;
     font-size: small;
     
-
-
-    
 }
 
 input[type=text],input[type=email],textarea { 
@@ -158,7 +142,6 @@ input[type=text],input[type=email],textarea {
     margin-top: 6px;
     margin-bottom:8px;
     resize: vertical; 
-    
     
 }
 
@@ -178,28 +161,23 @@ input[type=submit] {
 }
 
 input[type=submit]:hover { 
-        opacity: .9;
+    opacity: .9;
+
 }
 
 .gallery { 
-    /* position: relative;   */
     display: grid; 
-    /* grid-auto-flow: row dense;   */
     grid-template-columns: repeat(2,1fr);
     grid-gap: 5px;
     float: left;
-    /* margin-right: 0; */
     width: 500px; 
     padding: 15px 0 0 0;
 
 }
-   
- 
-.gallery span {
     
+.gallery span {
     display: grid;   
     float:left;
-    /* grid-auto-flow: column;  */
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -207,10 +185,8 @@ input[type=submit]:hover {
     position: relative;  
     top: -50px;      
     width: 200px;  
-    /* left: -215px;  */
     background-color: #4aaaa5;
-    
-     
+         
 }
 
 
