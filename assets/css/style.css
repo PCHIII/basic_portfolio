@@ -12,9 +12,9 @@ body {
     font-size: 1rem;
 }
 
-.flex-container {
+/* .flex-container {
     margin-left 40px;
-}
+} */
 
 header {
     border-bottom: 1.5px solid #cccccc;
@@ -139,7 +139,7 @@ footer {
 
 .container {
     background-color:#ffffff;
-    padding: 0;
+    padding: 10px 0 0 0;
     font-size: small;
     
 }
